@@ -1,0 +1,32 @@
+:root {
+--header-height: 3.75rem;
+
+/* Colors */
+--title-color: rgb(33, 35, 83);
+--paragraph-color: rgb(75, 93, 104);
+--body-color: rgb(255, 255, 255);
+--primary-color: rgb(156, 105, 226);
+--secondary-color: rgb(240, 99, 184);
+--secondary-color-lighten: rgb(251, 215, 237);
+--decorative-container-color: rgb(104, 201, 186);
+--alternative-container-color: rgb(45, 156, 219);
+
+/* Font and Typography */
+--title-font: 'Helvetica', sans-serif;
+--paragraph-font: 'Avenir', sans-serif;
+--h1-font-size: 5rem;
+--h2-font-size: 2.5rem;
+--h3-font-size: 1.5rem;
+--h4-font-size: 1rem;
+--paragraph-font-size: 1.125rem;
+
+/* Font Weight */
+--font-bold: 700;
+--font-semibold: 500;
+--font-light: 400;
+
+// Margins
+--mb-10: 1rem;
+--mb-20: 1.25rem;
+
+}
