@@ -1,0 +1,28 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--paragraph-font);
+    font-size: var(--paragraph-font-size);
+    background-color: var(--body-color);
+}
+
+h1, h2 {
+    font-weight: var(--font-bold);
+    color: var(--title-color);
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
