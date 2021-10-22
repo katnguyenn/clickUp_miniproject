@@ -1,0 +1,86 @@
+:root {
+--header-height: 3.75rem;
+
+/* Colors */
+--title-color: rgb(33, 35, 83);
+--paragraph-color: rgb(75, 93, 104);
+--body-color: rgb(255, 255, 255);
+--primary-color: rgb(156, 105, 226);
+--secondary-color: rgb(240, 99, 184);
+--secondary-color-lighten: rgb(251, 215, 237);
+--decorative-container-color: rgb(104, 201, 186);
+--alternative-container-color: rgb(45, 156, 219);
+
+/* Font and Typography */
+--title-font: 'Helvetica', sans-serif;
+--paragraph-font: 'Avenir', sans-serif;
+--h1-font-size: 5rem;
+--h2-font-size: 2.5rem;
+--h3-font-size: 1.5rem;
+--h4-font-size: 1rem;
+--paragraph-font-size: 1.125rem;
+
+/* Font Weight */
+--font-bold: 700;
+--font-semibold: 500;
+--font-light: 400;
+
+/* Margins */
+--mb-10: 1rem;
+--mb-20: 1.25rem;
+
+}
+
+.header {
+  position: absolute;
+  width: 1120px;
+  height: 60px;
+  top: 47px;
+  left: 240px;
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu__item {
+  display: inline;
+  font-size: var(--h4-font-size);
+  margin-left: var(--mb-20);
+  margin-right: var(--mb-20);
+  cursor: pointer;
+}
+.nav-menu__button {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  left: 800px;
+  top: 3px;
+  background: var(--body-color);
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  border-color: transparent;
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: var(--mb-10);
+}
+
+.logo {
+  margin-right: var(--mb-20);
+}
+
+.active-link {
+  position: relative;
+}
+.active-link::before {
+  content: "";
+  position: absolute;
+  background-color: var(--title-color);
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
