@@ -1,0 +1,44 @@
+.about {
+    &__container {
+        position: absolute;
+        width: 645px;
+        height: 464px;
+        left: 240px;
+        top: 237px;
+    }
+
+    &__title {
+        width: 645px;
+        height: 184px;
+        line-height: 110%;
+        font-size: var(--h1-font-size);
+        margin-bottom: var(--mb-10);
+
+    }
+
+    &__description {
+        width: 380px;
+        color: var(--paragraph-color);
+        font-size: var(--paragraph-font-size);
+        font-weight: var(--font-light);
+        margin-bottom: var(--mb-20);
+    }
+}
+
+.about-img {
+    position: absolute;
+    width: 750px;
+    height: 430px;
+    top: 333px;
+    left: 603px;
+}
+
+.about-btn {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    border-color: transparent;
+}

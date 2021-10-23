@@ -1,34 +1,32 @@
-:root {
---header-height: 3.75rem;
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/* Colors */
---title-color: rgb(33, 35, 83);
---paragraph-color: rgb(75, 93, 104);
---body-color: rgb(255, 255, 255);
---primary-color: rgb(156, 105, 226);
---secondary-color: rgb(240, 99, 184);
---secondary-color-lighten: rgb(251, 215, 237);
---decorative-container-color: rgb(104, 201, 186);
---alternative-container-color: rgb(45, 156, 219);
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--paragraph-font);
+  font-size: var(--paragraph-font-size);
+  background-color: var(--body-color);
+}
 
-/* Font and Typography */
---title-font: 'Helvetica', sans-serif;
---paragraph-font: 'Avenir', sans-serif;
---h1-font-size: 5rem;
---h2-font-size: 2.5rem;
---h3-font-size: 1.5rem;
---h4-font-size: 1rem;
---paragraph-font-size: 1.125rem;
+h1, h2 {
+  font-weight: var(--font-bold);
+  color: var(--title-color);
+}
 
-/* Font Weight */
---font-bold: 700;
---font-semibold: 500;
---font-light: 400;
+p {
+  color: var(--paragraph-color);
+}
 
-/* Margins */
---mb-10: 1rem;
---mb-20: 1.25rem;
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+ul {
+  list-style-type: none;
 }
 
 .header {
@@ -81,6 +79,77 @@
   position: absolute;
   background-color: var(--title-color);
   border-radius: 50%;
+}
+
+.about__container {
+  position: absolute;
+  width: 645px;
+  height: 464px;
+  left: 240px;
+  top: 237px;
+}
+.about__title {
+  width: 645px;
+  height: 184px;
+  line-height: 110%;
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-10);
+}
+.about__description {
+  width: 380px;
+  color: var(--paragraph-color);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--font-light);
+  margin-bottom: var(--mb-20);
+}
+
+.about-img {
+  position: absolute;
+  width: 750px;
+  height: 430px;
+  top: 333px;
+  left: 603px;
+}
+
+.about-btn {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  border-color: transparent;
+}
+
+:root {
+  --header-height: 3.75rem;
+  /* Colors */
+  --title-color: rgb(33, 35, 83);
+  --paragraph-color: rgb(75, 93, 104);
+  --body-color: rgb(255, 255, 255);
+  --primary-color: rgb(156, 105, 226);
+  --secondary-color: rgb(240, 99, 184);
+  --secondary-color-lighten: rgb(251, 215, 237);
+  --decorative-container-color: rgb(104, 201, 186);
+  --alternative-container-color: rgb(45, 156, 219);
+  /* Font and Typography */
+  --title-font: "Helvetica", sans-serif;
+  --paragraph-font: "Avenir", sans-serif;
+  --h1-font-size: 5rem;
+  --h2-font-size: 2.5rem;
+  --h3-font-size: 1.5rem;
+  --h4-font-size: 1rem;
+  --paragraph-font-size: 1.125rem;
+  /* Font Weight */
+  --font-bold: 700;
+  --font-semibold: 500;
+  --font-light: 400;
+  --mb-10: 1rem;
+  --mb-20: 1.25rem;
+}
+
+.container {
+  max-width: 1600px;
 }
 
 /*# sourceMappingURL=styles.css.map */
