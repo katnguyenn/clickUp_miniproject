@@ -3,21 +3,31 @@
         position: absolute;
         width: 645px;
         height: 464px;
-        left: 240px;
+        left: 100px;
         top: 237px;
+        
+        
     }
 
     &__title {
+
         width: 645px;
         height: 184px;
+        left: 240px;
+        top: 237px;
         line-height: 110%;
         font-size: var(--h1-font-size);
         margin-bottom: var(--mb-10);
+       
 
     }
 
     &__description {
         width: 380px;
+        height: 120px;
+        left: 240px;
+        top: 471px;
+        line-height: 160%;
         color: var(--paragraph-color);
         font-size: var(--paragraph-font-size);
         font-weight: var(--font-light);
@@ -27,16 +37,17 @@
 
 .about-img {
     position: absolute;
-    width: 750px;
-    height: 430px;
+    width: 850px;
+    height: 468px;
+    left: 503px;
     top: 333px;
-    left: 603px;
+    
 }
 
 .about-btn {
     position: absolute;
-    width: 120px;
-    height: 40px;
+    width: 170px;
+    height: 60px;
     color: white;
     background-color: var(--primary-color);
     border-radius: 50px;
