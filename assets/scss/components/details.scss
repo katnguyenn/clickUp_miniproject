@@ -1,0 +1,46 @@
+.details {
+
+    &__container {
+    background-color: var(--secondary-color-lighten);
+    position: absolute;
+    width: 1117px;
+    height: 560px;
+    left: 240px;
+    top: 903.18px;
+    border-radius: 50px;
+    }
+
+
+
+&__picture {
+    position: absolute;
+    width: 477px;
+    height: 504px;
+    top: 31.82px;
+    left: 11px;
+}
+
+&__title {
+    position: absolute;
+    width: 475px;
+    height: 100px;
+    left: 550px;
+    top: 125px;
+    font-family: var(--title-font);
+    font-weight: var(--font-bold);
+    font-size: var(--h2-font-size);
+    line-height: 130%;
+}
+
+&__paragraph {
+    position: absolute;
+    width: 474px;
+    height: 170px;
+    left: 550px;
+    top: 265px;
+    font-family: var(--paragraph-font);
+    font-weight: var(--font-semibold);
+    font-size: var(--paragraph-font-size);
+}
+
+}
