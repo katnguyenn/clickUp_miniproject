@@ -1,8 +1,8 @@
 .header {
-    position: fixed;
+    position: absolute;
     width: 1120px;
     height: 60px;
-    left: 100px;
+    left: 240px;
     top: 47px;
     
 }
@@ -53,7 +53,7 @@
        position: absolute;
        width: 210px;
        height: 60px;
-       left: 1030px;
+       left: 1000px;
        font-size: var(--h4-font-size);
        background: var(--body-color);
        color: var(--title-color);
