@@ -184,15 +184,13 @@
        &-right-line {
            @extend .testimonials__back-left-line;
            width: 20px;
-            float: left;
-           
+            float: left;    
        }
 
        &-right-point {
            @extend .testimonials__back-left-point;
            transform: rotate(-45deg);
-            float: right;
-            
+            float: right;     
        }
 
     }
