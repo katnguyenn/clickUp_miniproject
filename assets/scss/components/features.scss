@@ -39,13 +39,17 @@
         text-align: center;
     }
 
-    &__item1 {
-        position: relative;
-        left: 328.29px;
-        top: 260px;
+    &__item {
         width: 442px;
         height: 358px;
+        top: 260px;
         z-index: -1;
+    
+
+    &.item1 {
+        position: relative;
+        left: 328.29px;
+    }
         
         &:before {
             content: "";
@@ -63,7 +67,7 @@
             position: absolute;
             width: 203.82px;
             height: 118.6px;
-            left: 25px;
+            left: 12.01px;
             top: 10px;
         }
 
@@ -71,7 +75,7 @@
             position: absolute;
             width: 33.7px;
             height: 19.91px;
-            left: 84.07px;
+            left: 73.03px;
             top: 38.88px;
             border-radius: 100px / 50px;
             border: 1.5px solid #fff;
@@ -87,7 +91,7 @@
             z-index: 1;
         }
 
-      &-title {
+        &-title {
             position: absolute;
             width: 200px;
             height: 50px;
@@ -124,79 +128,48 @@
             font-size: var(--h4-font-size);
         }
 
-
-    }
-
-    &__item2 {
+    &.item2 {
         position: absolute;
-        width: 442px;
-        height: 358px;
         left: 915.28px;
-        top: 260px;
-        z-index: -1;
-        
-        
+       
+     
         &:before {
-            @extend .features__item1;
             background: rgba(156, 105, 226, 0.1);
             border-radius: 20px;
         }
 
-        &-vector56 {
-            @extend .features__item1-vector56;
+        .vector56 {
             top: 193px;
             left: 0.44px;
-            transform: rotate(185deg);
+            transform: rotate(185deg); 
         }
 
-        &-img {
-            position: absolute;
+        .img {
             width: 241px;
             height: 185px;
             left: -303.28px;
             top: 71px;
-            z-index: 1;
         }
-
-        &-title {
-                @extend .features__item1-title;
-                left: -33.28px;
-            }
-
-        &-text {
-                @extend .features__item1-text;
-                left: -33.29px; 
-            }
-
-
-        &-btn {
-                @extend .features__item1-btn;
-                left: -33.29px;
-            }
     }
 
-    &__item3 {
+
+    &.item3 {
         position: relative;
-        width: 442px;
-        height: 358px;
         left: 328.29px;
         top: 310px;
 
         &:before {
-            @extend .features__item1;
             background: rgba(240, 99, 184, 0.1);
-            border-radius: 50px;
         }
 
-           &-ellipse61 {
-               @extend .features__item1-ellipse61;
-               width: 68.05px;
-               height: 40.21px;
-               transform: rotate(150deg);  
-            }
+        .ellipse61 {
+            width: 68.05px;
+            height: 40.21px;
+            transform: rotate(150deg);  
+        }
     
 
-        &-img {
+        .img {
             position: absolute;
             width: 241px;
             height: 185px;
@@ -204,79 +177,42 @@
             top: 123px;
         }
 
-        &-title {
-            @extend .features__item1-title;
-            left: -35.29px;   
-        }
-        
 
-        &-text {
-            @extend .features__item1-text;
-            left: -35.29px;
-        }
+    }
 
-        &-btn {
-            @extend .features__item1-btn;
-            left: -35.29px;  
-        }
 
-}
-
-    &__item4 {
+    &.item4 {
         position: absolute;
-        width: 442px;
-        height: 358px;
         left: 915.28px;
         top: 668px;
         
     
-          &:before {
-            @extend .features__item1;
+        &:before {
             background: rgba(45, 156, 219, 0.1);
             border-radius: 20px;
         }
 
-        &-vector56 {
-            @extend .features__item1-vector56;
+        .vector56 {
             top: 30px;
             left: -64.72px;
             transform: rotate(135deg);
         }
         
+       .ellipse61 {
+            width: 61.85px;
+            height: 36.55px;
+            top: 278px;
+            transform: rotate(20.72deg); 
+       }
 
-
-        &-ellipse61 {
-            @extend .features__item1-ellipse61; 
-                width: 61.85px;
-                height: 36.55px;
-                top: 278px;
-                transform: rotate(20.72deg);    
-        }
-
-        &-img {
+        .img {
             position: absolute;
             width: 241px;
             height: 185px;
             left: -309.28px;
             top: 86px;
         }
-
-        &-title {
-        @extend .features__item1-title;
-            left: -39.28px;
-        }
-
-        &-text {
-            @extend .features__item1-text;
-            left: -39.28px;
-            top: 115px;
-        }
-
-        &-btn {
-        @extend .features__item1-btn;
-            left: -39.28px; 
-        }
-
+    }
 }
 
 
