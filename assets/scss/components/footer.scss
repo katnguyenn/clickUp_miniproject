@@ -122,7 +122,6 @@
                 display: -webkit-box;
                 position: absolute;
                 left: 575px;
-
             }
 
             &__item--parent {
@@ -138,6 +137,7 @@
 
             &__list--social {
                 writing-mode: vertical-lr;
+                margin-top: -20px;
             }
         
     &__social {

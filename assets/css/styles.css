@@ -672,6 +672,7 @@ ul {
 }
 .footer-navigation__list--social {
   writing-mode: vertical-lr;
+  margin-top: -20px;
 }
 .footer-navigation__social {
   position: absolute;
