@@ -1,12 +1,10 @@
 .about {
     &__container {
         position: absolute;
-        width: 645px;
-        height: 464px;
+        width: 1248px;
+        height: 647px;
         left: 240px;
-        top: 237px;
-        
-        
+        top: 237px; 
     }
 
     &__title {
@@ -18,8 +16,6 @@
         font-weight: var(--font-bold);
         font-size: var(--h1-font-size);
         margin-bottom: var(--mb-10);
-       
-
     }
 
     &__description {
@@ -42,16 +38,16 @@
         background-color: var(--primary-color);
         border-radius: 50px;
         border-color: transparent;
-}
+    }
 
-    &__img {
-    position: absolute;
-    max-width: 885px;
-    height: 468px;
-    left: 603px;
-    top: 333px;
-    
-}
+        &__img {
+        position: absolute;
+        max-width: 885px;
+        // width: 100vh;
+        height: 468px;
+        left: 363px;
+        top: 96px;
+    }
 
 }
 

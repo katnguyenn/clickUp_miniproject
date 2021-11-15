@@ -1,9 +1,10 @@
+@import 'config/variables';
 @import 'base/base';
+@import 'layout/layout';
 @import 'components/header';
 @import 'components/about';
 @import 'components/details';
 @import 'components/features.scss';
 @import 'components/testimonials';
 @import 'components/footer';
-@import 'config/variables';
-@import 'layout/layout';
+@import 'components/mediaqueries';
